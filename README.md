@@ -1,11 +1,7 @@
 # redux-observable-scaffold
-Simplify redux boilerplate code when using redux-observable.
-
 There are too much boilerplate code in react&redux project.
 
-Simplify the action &reducer creation and fully utlize [redux-observable](https://github.com/redux-observable/redux-observable) and [rx.js](https://github.com/ReactiveX/rxjs)
-
-The creation of action and redux could be this simple:
+Simplify the action &reducer creation and fully utlize [redux-observable](https://github.com/redux-observable/redux-observable) and [rx.js](https://github.com/ReactiveX/rxjs). That could be this simple:
 
 ```js
 import 'rxjs';

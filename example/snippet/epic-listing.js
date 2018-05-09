@@ -32,15 +32,13 @@ Reducer["update_listing_state"] = (init, action) => {
     }
 };
 
+
 // Observable
-export function updateList(action$) {
+export const updateList = (action$) => {
     return action$.ofType("UPDATE_LISTING_STATE")
         .delay(1000)
-        .map(x => ({
-            type: "UPDATE_LISTING_DATA",
-            payload: [1, 2, 3, 4],
-        }))
-}
+        .map(x => Actions["update_listing_data"]([1, 2, 3, 4]))
+};
 
 
 export default {Types, Actions, Reducer, INITIAL_STATE}

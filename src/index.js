@@ -16,7 +16,6 @@ export const create = (initialState, config) => {
         acm[key] = (state = initialState, action) => {
             if (action.type === key.toUpperCase()) {
                 return {...state, [value[0]]: action.payload}
-                    ;
             } else {
                 return state;
             }

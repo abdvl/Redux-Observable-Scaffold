@@ -1,4 +1,4 @@
-# redux observable scaffold
+# Redux Observable Scaffold
 There are too much boilerplate code in react&redux project.
 
 Simplify the action &reducer creation and fully utlize [redux-observable](https://github.com/redux-observable/redux-observable) and [rx.js](https://github.com/ReactiveX/rxjs). That could be this simple:
